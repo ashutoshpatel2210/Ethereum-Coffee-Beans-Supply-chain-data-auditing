@@ -6,11 +6,11 @@ The DApp User Interface when running should look like...
 
 ![truffle test](images/ftc_product_overview.png)
 
-![truffle test](images/farmer_details.png)
+![truffle test](images/farmer_details.PNG)
 
-![truffle test](images/product_details.png)
+![truffle test](images/product_details.PNG)
 
-![truffle test](images/ftc_transaction_history_2.png)
+![truffle test](images/ftc_transaction_history_2.PNG)
 
 
 ## Getting Started
@@ -51,7 +51,41 @@ ganache-cli -m "spirit supply whale amount human item harsh scare congress disco
 
 Your terminal should look something like this:
 
-![truffle test](images/ganache-cli.png)
+```
+truffle develop
+Warning: Both truffle-config.js and truffle.js were found. Using truffle-config.js.
+Truffle Develop started at http://127.0.0.1:9545/
+
+Accounts:
+(0) 0xe8e2352988c97a32fb0405486a29b48cf7942e42
+(1) 0xb7d0b759ed0c126900ece1b573163c8c64bfc642
+(2) 0x5941ecad72b811c98ea3f261ecc683e7c4b81773
+(3) 0xc871f01b78ec39c02f0ad3fe592e4ec63d912596
+(4) 0xd73247c74487e1db739b1238d836e5866d5ca05a
+(5) 0x31672ab3d817b2a11231f4745e941cf4ec21025f
+(6) 0x0f6e13bdfa0a21d2e2205703a5de5ad55aaee157
+(7) 0x990ba7f4149679b7a200d2887ff07358960ab7f7
+(8) 0x445b33973a8d1931787c7c7711dea6cbc9ed58b9
+(9) 0x4d545172160a896f36ba17c83f26a4d5d0ac3396
+
+Private Keys:
+(0) 22bb006bc04a7caf1043d35d8845050a4ece31d42c46aca70d426305674e3e24
+(1) 2b562c316c4298d574ea8c74d87df2f070846b5c8d966f632a42b0b69974af8f
+(2) 14c3ac74c391ad30ce3f096036e003a77d3a09ec8912bf71e8c6af4b5f42d48e
+(3) 7db7362be50b83d030b956cddeba0fc75726117ebc42ab6db95b5d6a2a54cae7
+(4) f9986e6849f978d0447d0e42bc9abf968a0f1d8c6e7ae25d101a1a0028e5da86
+(5) 79b8a87fdb534cb6a24be74859457fafd9420e7b5024555341eb15f98e7ae5d5
+(6) 81ae74ba8df72c57565e29b8cd1c2dee3b9bfefe204706e0d1d6351e25e56b39
+(7) 8893a9afdbe84db6841659e547bf9de6696bec1ac50af05523c88ca05a6fc587
+(8) 25329e485d9802f1dda005a03f6129b855e6d828a454785c2e474903fc1f4603
+(9) d9f51992cec4f28be5953b063e53157ffdb94e268b526e797b13b46029cc863a
+
+Mnemonic: lady element muffin illness frame wolf soccer shell hybrid camp rally arm
+
+⚠️  Important ⚠️  : This mnemonic was created for you by Truffle. It is not secure.
+Ensure you do not use it on production blockchains, or else you risk losing funds.
+
+```
 
 In a separate terminal window, Compile smart contracts:
 
